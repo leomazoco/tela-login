@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Login</title>
+</head>
+<body>
+     <main>
+        <section id="login">
+            <div id="imagem">
+                <!--Aqui vai a imagem em CSS-->
+            </div>
+            <div id="formulario">
+                <h1>Boas-vindas à nossa plataforma!</h1>
+                <p>Por favor, faça login para acessar suas informações</p>
+                <form action="login.php" method="post" autocomplete="on" id="dados">
+                    <div class="dados-login">
+                        <label for="ilogin">Login</label>
+                        <input type="email" name="login" id="ilogin" autocomplete="email" required maxlength="30">
+                    </div>
+                    <div class="dados-login">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="20">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="rememberMeCheckbox" checked>
+                        <label for="rememberMeCheckbox" class="checkboxLabel">Lembrar minhas informações</label>
+                    </div>
+                    <button>Entrar</button>
+                </form>
+            </div>
+        </section>
+</body>
+</html>
