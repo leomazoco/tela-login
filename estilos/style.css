@@ -104,3 +104,34 @@ button {
     border: solid black .7px;
 }
 
+.login-alternativo {
+    text-align: center;
+}
+
+.login-alternativo > p {
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.login-alternativo > button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.login-google{
+    background-color: white;
+    align-items: center;
+}
+
+.login-facebook {
+    background-color: rgb(110, 110, 158);
+    border: solid rgb(110, 110, 158);
+    color: white;
+}
+
+img {
+    height: 25px;
+    padding: 2px;
+}
+
+
